@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Becv — Business Pricing</title>
+  </head>
+  <body>
+
+    <nav class="navbar">
+      <img src="resources/Logo@2x.png" alt="Becv logo" class="logo" />
+    </nav>
+
+    <main class="container">
+
+      <header class="hero">
+        <h1>Interested in our<br />business pricing?</h1>
+        <p>Fill out the form to view details and we'll<br />contact you as soon as possible.</p>
+      </header>
+
+      <div class="card">
+
+        <div class="form-row">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Ethan Johnson" />
+          </div>
+          <div class="field">
+            <label for="email">Company Email</label>
+            <input type="email" id="email" placeholder="ethan@johnson.com" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label for="size">Company Size</label>
+            <div class="select-wrapper">
+              <select id="size">
+                <option value="50-100">50-100 employees</option>
+                <option value="1-10">1-10 employees</option>
+                <option value="10-50">10-50 employees</option>
+                <option value="100+">100+ employees</option>
+              </select>
+              <img src="resources/Logo.svg" alt="" class="chevron" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="subject">Subject</label>
+            <div class="select-wrapper">
+              <select id="subject">
+                <option value="landing">Building Landing pages</option>
+                <option value="saas">SaaS Product</option>
+                <option value="ecommerce">E-commerce</option>
+                <option value="other">Other</option>
+              </select>
+              <img src="resources/Logo.svg" alt="" class="chevron" />
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="50-100 employees"></textarea>
+        </div>
+
+        <button type="button">Contact Sales</button>
+
+      </div>
+
+    </main>
+    <div class="author-info">Coded by <a href="#">Axel Johab Rodriguez Ortiz</a></div>
+
+  </body>
+</html>
