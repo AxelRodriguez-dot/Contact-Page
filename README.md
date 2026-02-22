@@ -2,13 +2,13 @@
 
 ---
 
-- Nombre: 
-- Número de Control:
+- Nombre: Axel Johab Rodriguez Ortiz
+- Número de Control:23151212
 
 ---
 
 ## 📌 Descripción
-
+Un formulario de el cual tiene una lista de contacot en la cual el usuario indicara los datos correspondientes.
 
 
 ---
@@ -21,9 +21,9 @@
 ---
 
 ## 🔗 Enlace al proyecto
-Repositorio en GitHub: [Pega aquí tu enlace]  
-Deploy: [LINK](http://yomidev.github.io/newsletter/)
+Repositorio en GitHub: [https://github.com/AxelRodriguez-dot/Contact-Page]  
+Deploy: [LINK](https://axelrodriguez-dot.github.io/Contact-Page/)
 ---
 
 ## 📝 Reflexión
-(Escribe aquí unas líneas sobre lo que aprendiste, las dificultades que tuviste y cómo las solucionaste)
+Aprendi sobre el uso de los menus desplegables al principio no lograba hacerlos funcionar o no aparecian ciertas opciones logre solucionarlos rescribiendo el select puesto que me falto cerrarlo en algunas opciones.
